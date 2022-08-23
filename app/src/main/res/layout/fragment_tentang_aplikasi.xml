@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.TentangAplikasiFragment">
+
+    <View
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/green_utama"
+        android:elevation="@dimen/dimen_4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:contentDescription="@string/content_desc_back_to_previous_screen"
+        android:padding="@dimen/dimen_4dp"
+        android:elevation="@dimen/dimen_4dp"
+        android:src="@drawable/ic_back_button"
+        app:layout_constraintBottom_toBottomOf="@id/top_bar"
+        app:layout_constraintStart_toStartOf="@id/top_bar"
+        app:layout_constraintTop_toTopOf="@id/top_bar" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:text="Tentang Aplikasi"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="@dimen/font_size_16sp"
+        android:elevation="@dimen/dimen_4dp"
+        app:layout_constraintBottom_toBottomOf="@id/top_bar"
+        app:layout_constraintStart_toEndOf="@id/img_back"
+        app:layout_constraintTop_toTopOf="@id/top_bar" />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goyang Satu Jari"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_20sp"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“Gerakan Layanan Online Satu Jam Online”"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_judul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_judul3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gerakan_layanan_online_1_jam_jadi_merupakan_produk_inovasi_pelayanan_publik_yang_dirancang_hadirkan_dalam_upaya_untuk_memberikan_segala_kemudahan_layanan_publik_ke_pada_masyarakat_di_wilayah_bunguran_utara_terutama_masyarakat_desa_yang_berada_diluar_pulau_bunguran_seperti_desa_kelarik_barat_seluan_barat_dan_teluk_buton_rentang_kendalinya_cukup_jauh_dari_pusat_kecamatan_maka_untuk_itu_kami_mencari_solusi_dengan_menghadirkan_produk_inovasi_ini_supaya_masyarakat_dengan_cepat_mudah_untuk_mendapatkan_pelayanan_publik_cukup_menggenggam_handphone_android_masyarakat_bisa_mengajukan_permohonan_layanan_publik_secara_online"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_16sp"
+        android:gravity="start"
+        android:paddingHorizontal="@dimen/dimen_24dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_judul2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_koordinator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_8dp"
+        android:layout_marginHorizontal="@dimen/dimen_24dp"
+        android:layout_marginTop="@dimen/dimen_36dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_judul3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_profile_koordinator"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_profile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_koordinator"/>
+
+            <TextView
+                android:id="@+id/tv_koordinator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hariyanto,S.AP.,M.AP"
+                app:layout_constraintStart_toEndOf="@id/img_profile_koordinator"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_jabatan_koordinator"/>
+
+            <TextView
+                android:id="@+id/tv_jabatan_koordinator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kecamatan Bunguran Utara"
+                app:layout_constraintStart_toEndOf="@id/img_profile_koordinator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_koordinator"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_rachma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_8dp"
+        android:layout_marginHorizontal="@dimen/dimen_24dp"
+        android:layout_marginTop="@dimen/dimen_24dp"
+        app:layout_constraintTop_toBottomOf="@id/cv_koordinator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_profile_rachma"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_profile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_rachma"/>
+
+            <TextView
+                android:id="@+id/tv_rachma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rachma Aurya Nurhaliza"
+                app:layout_constraintStart_toEndOf="@id/img_profile_rachma"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_jabatan_rachma"/>
+
+            <TextView
+                android:id="@+id/tv_jabatan_rachma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KKN - PPM Universitas Gadjah Mada"
+                app:layout_constraintStart_toEndOf="@id/img_profile_rachma"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_rachma"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_shubhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_8dp"
+        android:layout_marginHorizontal="@dimen/dimen_24dp"
+        android:layout_marginTop="@dimen/dimen_24dp"
+        app:layout_constraintTop_toBottomOf="@id/cv_rachma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_profile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_shubhan"
+                android:contentDescription="image" />
+
+            <TextView
+                android:id="@+id/tv_shubhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shubhan Hasanuddin"
+                app:layout_constraintStart_toEndOf="@id/img_profile"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_jabatan_shubhan"/>
+
+            <TextView
+                android:id="@+id/tv_jabatan_shubhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KKN - PPM Universitas Gadjah Mada"
+                app:layout_constraintStart_toEndOf="@id/img_profile"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_shubhan"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

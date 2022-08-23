@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.PengaduanFragment">
+
+    <im.delight.android.webview.AdvancedWebView
+        android:id="@+id/wv_pengaduan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <View-->
+<!--        android:id="@+id/top_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="72dp"-->
+<!--        android:background="@color/green_utama"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_back"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:layout_marginStart="@dimen/dimen_16dp"-->
+<!--        android:contentDescription="@string/content_desc_back_to_previous_screen"-->
+<!--        android:padding="@dimen/dimen_4dp"-->
+<!--        android:src="@drawable/ic_back_button"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/top_bar"-->
+<!--        app:layout_constraintStart_toStartOf="@id/top_bar"-->
+<!--        app:layout_constraintTop_toTopOf="@id/top_bar" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_location"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/dimen_16dp"-->
+<!--        android:text="Pengaduan"-->
+<!--        android:textColor="?attr/colorOnPrimary"-->
+<!--        android:textSize="@dimen/font_size_16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/top_bar"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_back"-->
+<!--        app:layout_constraintTop_toTopOf="@id/top_bar" />-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/tf_nama_lengkap"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Nama Lengkap"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/et_nama_lengkap"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/tf_email_nik"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="@dimen/dimen_16dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Email / NIK"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tf_nama_lengkap">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/et_email_nik"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/tf_alamat"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="@dimen/dimen_16dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Alamat"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tf_email_nik">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/et_alamat"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/tf_pengaduan"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="@dimen/dimen_16dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Pengaduan"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tf_alamat">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/et_pengaduan"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/tf_nomor_hp"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="@dimen/dimen_16dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Nomor Handphone"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tf_pengaduan">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/et_nomor_hp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnLogin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="32dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:paddingVertical="8dp"-->
+<!--        android:text="Ajukan"-->
+<!--        android:textSize="18dp"-->
+<!--        app:cornerRadius="8dp"-->
+<!--        android:backgroundTint="#34CEA7"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tf_nomor_hp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.DetailLayanan">
+
+    <TextView
+        android:id="@+id/tvDeskripsiSurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Surat"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvIsiDeskripsiSurat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deskripsi_iumk"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="6dp"
+        android:textAlignment="textStart"
+        app:layout_constraintTop_toBottomOf="@id/tvDeskripsiSurat"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvPersyaratan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persyaratan"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_goneMarginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvIsiDeskripsiSurat"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDescPersyaratan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/syarat_surat_IUMK"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPersyaratan"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_daftar_layanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="@dimen/dimen_64dp"
+        android:paddingVertical="8dp"
+        android:text="Daftar"
+        android:textSize="18dp"
+        app:cornerRadius="8dp"
+        android:backgroundTint="#34CEA7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvBiaya"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Biaya"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        app:layout_goneMarginTop="8dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvDescPersyaratan"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvDescBiaya"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Rp 100.000"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:textAlignment="textStart"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tvBiaya"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

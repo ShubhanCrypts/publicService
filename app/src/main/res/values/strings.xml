@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Goyang Satu Jari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="content_desc_back_to_previous_screen">kembali ke layar sebelumnya</string>
+    <string name="gerakan_layanan_online_1_jam_jadi_merupakan_produk_inovasi_pelayanan_publik_yang_dirancang_hadirkan_dalam_upaya_untuk_memberikan_segala_kemudahan_layanan_publik_ke_pada_masyarakat_di_wilayah_bunguran_utara_terutama_masyarakat_desa_yang_berada_diluar_pulau_bunguran_seperti_desa_kelarik_barat_seluan_barat_dan_teluk_buton_rentang_kendalinya_cukup_jauh_dari_pusat_kecamatan_maka_untuk_itu_kami_mencari_solusi_dengan_menghadirkan_produk_inovasi_ini_supaya_masyarakat_dengan_cepat_mudah_untuk_mendapatkan_pelayanan_publik_cukup_menggenggam_handphone_android_masyarakat_bisa_mengajukan_permohonan_layanan_publik_secara_online"><![CDATA[Gerakan Layanan Online 1 Jam Jadi merupakan produk Inovasi Pelayanan Publik yang dirancang & hadirkan dalam upaya untuk memberikan segala kemudahan layanan publik ke pada masyarakat di wilayah Bunguran Utara, terutama masyarakat desa yang berada diluar pulau Bunguran seperti: Desa Kelarik Barat, Seluan Barat, dan Teluk Buton rentang kendalinya cukup jauh dari pusat kecamatan. Maka untuk itu, kami mencari solusi dengan menghadirkan produk inovasi ini, supaya masyarakat dengan cepat & mudah untuk mendapatkan pelayanan publik cukup menggenggam handphone android. masyarakat bisa mengajukan permohonan layanan publik secara online.]]></string>
+
+
+    <string name="surat_n_keterangan_n_sktm">Surat \n Keterangan \n SKTM</string>
+    <string name="surat_n_keterangan_n_ska">Surat \n Keterangan \n SKA</string>
+    <string name="informasi_n_keterangan_n_pindah">Informasi \n Keterangan \n Pindah</string>
+    <string name="keterangan_n_domisili">Keterangan \n Domisili</string>
+    <string name="rekomendasi_n_keramaian">Rekomendasi \n Keramaian</string>
+    <string name="surat_n_keterangan_n_domisili_n_ormas_n_dan_parpol">Surat \n keterangan \n domisili \n ormas \n dan parpol</string>
+    <string name="rekomendasi_n_proposal_n_bantuan">Rekomendasi \n proposal \n bantuan</string>
+    <string name="proposal_n_kelompok">Proposal \n Kelompok</string>
+    <string name="surat_izin_n_usaha_mikro_n_kecil_iumk">Surat Izin \n Usaha Mikro \n Kecil (IUMK)</string>
+    <string name="dispensasi_n_nikah">Dispensasi \n nikah</string>
+    <string name="rekomendasi_n_pelaksanaan_n_penelitian">Rekomendasi \n pelaksanaan \n penelitian</string>
+    <string name="surat_n_keterangan_n_telah_selesai_n_melaksanakan_n_penelitian">Surat \n keterangan \n telah selesai \n melaksanakan \n penelitian</string>
+
+    <string name="syarat_surat_IUMK">1. Mengisi form online yang disiapkan melalui \nWA/Web/Email\n 2. Menyiapkan akun aktif\n 3. Surat keterangan usaha dari Kepala Desa\n 4. Menyiapkan nomor handphone aktif\n 5. Fotocopy e-KTP\n 6. Fotofopy Kartu Keluarga\n 7. Fotocopy NPWP\n 8. Siapkan data usaha/alamat usaha\n</string>
+    <string name="deskripsi_iumk">iUMK adalah surat izin mendirikan usaha mikro \nkecil bagi pelaku usaha.</string>
+
+
+    <string name="syarat_surat_SKTM">1.	Surat pengantar dari Kepala Desa \n2.	Fotocopy e-KTP \n3.	Fotocopy Kartu Keluarga \n
+</string>
+    <string name="syarat_surat_SKA">1. Surat Pengantar Kepala Desa \n2. Data alamat dan tujuan pengirim/penerima \n 3. Fotocopy e-KTP \n 4. Fotocopy Kartu Keluarga \n</string>
+    <string name="syarat_ket_pindah">1.	Mengisi formulir dari Desa \n
+2.	Siapkan fotocopy e-KTP \n
+3.	Siapkan fotocopy Kartu Keluarga \n
+4.	Siapkan foto ukuran 4x6 = 2 lembar \n
+5.	Berkas disampaikan kepada Camat untuk memperoleh register \n
+</string>
+    <string name="syarat_ket_domisili">1.	Surat pengantar Kepala Desa \n
+2.	Fotocopy e-KTP \n
+3.	Fotocopy Kartu Keluarga \n
+</string>
+    <string name="syarat_rek_keramaian">1.	Surat pengantar Kepala Desa \n
+2.	Surat keterangan kapolsek/kapolres \n
+3.	Fotocopy penyelenggara kegiatan \n
+</string>
+    <string name="syarat_ket_domisili_parpol">1.	Surat mandate DPD \n
+2.	Fotocopy SK pengurus parpol \n
+3.	Fotocopy e-KTP pengurus \n
+</string>
+    <string name="syarat_rek_proposal">1.	Surat pengantar Kepala Desa \n
+2.	Fotocopy proposal \n
+3.	Fotocopy SK pengurus \n
+4.	Fotocopy e-KTP \n 5.	Fotocopy Kartu Keluarga \n
+</string>
+    <string name="syarat_rek_proposal_kelompok">1.	Surat pengantar dari Kepala Desa \n
+2.	Fotocopy proposal \n
+3.	Fotocopy SK pengurus \n
+4.	Fotocopy e-KTP \n
+5.	Fotocopy Kartu Keluarga \n
+6.	Fotocopy akte notaris/AD/RT \n
+</string>
+    <string name="syarat_dispensasi_nikah">1.	Surat keterangan Kepala Desa \n
+2.	Fotocopy e-KTP kedua calon pengantin \n
+3.	Fotocopy Kartu Keluarga orang tua calon pengantin \n
+4.	Fotocopy akte kelahiran calon pengantin \n
+5.	Fotocopy ijazah terakhir calon pengantin \n
+</string>
+    <string name="syarat_rek_pelaksanaan_penelitian">1.	Surat pengantar dari kampus \n
+2.	Fotocopy kartu mahasiswa \n
+</string>
+    <string name="syarat_ket_selesai_penelitian">1.	Surat pengantar dari desa/sebagai lokus penelitian \n
+2.	Fotocopy kartu mahasiswa \n
+</string>
+    <!--    <string name="syarat"></string>-->
+
+</resources>
